@@ -29,8 +29,29 @@ public class DataProviders {
     }
 
     @DataProvider(name = "buttonNames")
-    public Object[] websiteBtns() {
-        Object[] data = {"PHP Travels", "Mercury tours", "Internet", "E-commerce", "Passion Tea Company", "Saucedemo", "Shopping Cart"};
+    public Object[][] websiteBtns() {
+        Object[][] data = new Object[7][2];
+        data[0][0] = "PHP Travels";
+        data[0][1] = "Demo Script Test drive - PHPTRAVELS";
+
+        data[1][0] = "Mercury tours";
+        data[1][1] = "Demoaut.com";
+
+        data[2][0] = "Internet";
+        data[2][1] = "The Internet";
+
+        data[3][0] = "E-commerce";
+        data[3][1] = "My Store";
+
+        data[4][0] = "Passion Tea Company";
+        data[4][1] = "";
+
+        data[5][0] = "Saucedemo";
+        data[5][1] = "Swag Labs";
+
+        data[6][0] = "Shopping Cart";
+        data[6][1] = "Typescript React Shopping cart";
+
         return data;
     }
 }

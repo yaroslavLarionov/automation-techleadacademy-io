@@ -1,4 +1,6 @@
 package tests;
 
-public class UserManagementTest {
+import base.BaseTest;
+
+public class UserManagementTest extends BaseTest {
 }
